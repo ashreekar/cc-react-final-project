@@ -2,8 +2,8 @@ import { useEffect, useState } from "react"
 import { useDispatch, useSelector } from "react-redux"
 import { authService } from './appwrite/auth.js'
 import { login, logout } from './utils/auth.slice.js'
-import Header from "./component/Header.jsx"
-import Footer from "./component/Footer.jsx"
+import Header from "./component/HeaderandFooter/Header.jsx"
+import Footer from "./component/HeaderandFooter/Footer.jsx"
 
 function App() {
   const [laoding, setLaoding] = useState(true)
